@@ -1,14 +1,14 @@
 import './App.css';
 
-import { Layout, Menu, } from 'antd';
+import { Layout } from 'antd';
 
 import AppHeader from './components/common/header.js';
 
-const { Header,  } = Layout;
+const { Header } = Layout;
 
 function App() {
   return (
-    <Layout>
+    <Layout className='mainLayout'>
       <Header>
         <AppHeader/>
       </Header>
